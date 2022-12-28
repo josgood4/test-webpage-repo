@@ -1,0 +1,101 @@
+body {
+	background-color: #C9DADB;
+}
+
+.wrapper {
+	background-color: #282929;
+	width: 76%;
+	padding-top: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+	margin: 25px auto;
+}
+
+#header_image {
+	width: 100%;
+	padding-bottom: 5%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: verdana;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+h3 {
+	color: white;
+	font-family: verdana;
+	font-size: 25px
+}
+
+.top_links {
+	color: #99CCFF;
+	font-size: 25px;
+	font-family: verdana;
+	text-align: center;
+}
+
+a {
+	color: #99CCFF;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+	font-family: verdana;
+}
+
+.p2 {
+	color: white;
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.centered {
+	text-align: center;
+}
+
+#curt_solo_image {
+	float: left;
+	margin: 10px;
+	width: 45%;
+}
+
+#left_image {
+	float: left;
+	width: 7%;
+}
+
+#right_image {
+	float: right;
+	width: 7%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.centered_column {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.column_wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
